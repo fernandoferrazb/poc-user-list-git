@@ -1,0 +1,25 @@
+{
+  "name": "poc-user-list-git",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fernandoferrazb/poc-user-list-git.git"
+  },
+  "author": "fernandoferrazb",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fernandoferrazb/poc-user-list-git/issues"
+  },
+  "homepage": "https://github.com/fernandoferrazb/poc-user-list-git#readme",
+  "dependencies": {
+    "consolidate": "^0.15.1",
+    "dustjs-linkedin": "^2.7.5",
+    "express": "^4.16.3",
+    "nodemon": "^1.17.5"
+  }
+}
