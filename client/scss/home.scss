@@ -28,7 +28,8 @@ body {
     &__input {
       border-radius: 5px;
       border: 3px solid #00B4CC;
-      color: #9DBFAF;
+      font-size: 14px;
+      color: #000c09;
       padding: 5px;
       outline: none;
       height: 40px;
@@ -36,9 +37,12 @@ body {
     }
     &__button {
       background: #00B4CC;
+      cursor: pointer;
       border-radius: 5px;
       border: 3px solid #00B4CC;
-      height: 30px;
+      left: 61%;
+      height: 40px;
+      position: absolute;
       width: 30px;
     }
     .fa {

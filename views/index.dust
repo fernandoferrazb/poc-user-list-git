@@ -24,5 +24,6 @@
       </button>
     </div>
   </div>
+  <script src="/javascript/query-git.js"></script>
 </body>
 </html>
