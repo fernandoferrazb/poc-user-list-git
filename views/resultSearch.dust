@@ -1,0 +1,6 @@
+Sua busca encontrou esse usuário ativo: <br>
+
+{#gitConsult}
+	{login}<br>
+	{company}<br>
+{/gitConsult}
