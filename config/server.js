@@ -9,7 +9,7 @@ module.exports = function(){
 	app.set('views', __dirname + '/../views');
 
 	//module routes
-	var routes = require('../app/routes/web');
+	var routes = require('../app/routes/routes');
 	routes(app);
 
 	//server local
