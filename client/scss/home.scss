@@ -35,6 +35,17 @@ body {
       height: 40px;
       width: 25%;
     }
+    @media (max-width: 310px) {
+      &__search-block {
+        &__input {
+          width: 80%;
+        }
+        &__button {
+          left: 80%;
+        }
+      }
+    }
+    
     &__button {
       background: #00B4CC;
       cursor: pointer;
@@ -47,6 +58,15 @@ body {
     }
     .fa {
       color: #FFF;
+    }
+  }
+  .conteudo-render {
+    font-family: 'Lato', sans-serif;
+    line-height: 25px;
+    
+    &__avatar {
+    height: 150px;
+    border-radius: 70px;
     }
   }
 }
